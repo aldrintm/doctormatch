@@ -3,9 +3,12 @@ import { Button } from '@/components/ui/button'
 import Image from 'next/image'
 import Link from 'next/link'
 
+
+
 export default function Home() {
   return (
     <div className='flex h-screen max-h-screen'>
+      {/* TODO: add OTP verification | PasskeyModal */}
       <section className='remove-scrollbar container my-auto'>
         <div className='sub-container max-w-[496px]'>
           <div className='flex justify-center'>
@@ -30,7 +33,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       <Image
         src='/assets/images/onboarding-img2.webp'
         height={1000}
